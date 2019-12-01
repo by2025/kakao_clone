@@ -9,11 +9,11 @@
     border-radius: 38%;    
 }
 
-.friend__avatar .g-avatar {
+.g-avatar {
     width: 70px;
 }
 
-.friend__avatar .m-avatar {
+.m-avatar {
     width: 60px;
 }
 
@@ -43,5 +43,20 @@
 
 .friend__content .friend__status,
 .friend .chat__timestamp {
+    font-size: 12px;
+}
+
+.friend__now-listening {
+    border: 2px solid #52e084;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.friend__now-listening span {
+    opacity: 0.7;
+}
+
+.friend__now-listening i {
     font-size: 12px;
 }
