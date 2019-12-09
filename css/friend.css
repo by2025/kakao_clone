@@ -4,6 +4,10 @@
     align-self: center;
 }
 
+.friends__friend friend friend--lg {
+    display: flex;
+}
+
 .friend__avatar {
     width: 50px;
     border-radius: 38%;    
